@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="characterName" placeholder="Enter Character Name">
+        <button id="addCharacterBtn">Add Character</button>
+        <table id="characterTable">
+            <thead>
+                <tr>
+                    <th scope ="col"></th>
+                    <th scope ="col"></th>
+                </tr>
+                <tr>
+                    <th scope ="col" rowspan="2">Boses</th>
+                    <th scope ="col" rowspan="2">Mode</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope = "row" rowspan="3">boss1</td>
+                    <td>mode1</td>
+                </tr>
+                <tr>
+                    <td>mode3</td>
+                </tr>
+                <tr>
+                    <td>mode3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
